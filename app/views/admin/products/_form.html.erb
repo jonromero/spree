@@ -5,6 +5,7 @@
 <div class="yui-gc">
   <div class="yui-u first">
     
+    <% use_tinymce -%>
     <% f.field_container :name do %>
       <%= f.label :name, t("name") %> <span class="required">*</span><br />
       <%= f.text_field :name, :class => 'fullwidth title'  %>
